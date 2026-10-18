@@ -1,57 +1,57 @@
-/build
-/target
-.vscode
-.idea
-.DS_Store
-libsciter-gtk.so
-src/ui/inline.rs
-extractor
-__pycache__
-src/version.rs
+# ===
+# appimage
+# bridge file
+# build cache in examples
+# flatpak
+# flutter
+# vscode devcontainer
+**pdb
+*.bak
+*.cache
+*deb
 *dmg
 *exe
-*tgz
-cert.pfx
-*.bak
+*jpg
 *png
 *svg
-*jpg
-sciter.dll
-**pdb
-src/bridge_generated.rs
-src/bridge_generated.io.rs
-*deb
-rustdesk
-*.cache
-# appimage
-appimage/AppDir
+*tgz
+.DS_Store
+.devcontainer/.*
+.gitconfig
+.idea
+.ssh
+.vscode
+.vscode-server/
+/build
+/target
+__pycache__
 appimage/*.AppImage
-appimage/appimage-build
 appimage/*.xz
-# flutter
-flutter/linux/build/**
-flutter/linux/cmake-build-debug/**
-# flatpak
+appimage/AppDir
+appimage/appimage-build
+cert.pfx
+examples/**/target/
+extractor
+flatpak/*.flatpak
 flatpak/.flatpak-builder/**
-flatpak/ccache/**
 flatpak/.flatpak-builder/build/**
+flatpak/.flatpak-builder/debian-binary
 flatpak/.flatpak-builder/shared-modules/**
 flatpak/.flatpak-builder/shared-modules/*.tar.xz
-flatpak/.flatpak-builder/debian-binary
 flatpak/build/**
+flatpak/ccache/**
 flatpak/repo/**
-flatpak/*.flatpak
-# bridge file
-lib/generated_bridge.dart
-# vscode devcontainer
-.gitconfig
-.vscode-server/
-.ssh
-.devcontainer/.*
-# build cache in examples
-examples/**/target/
-# ===
-vcpkg_installed
 flutter/lib/generated_plugin_registrant.dart
+flutter/linux/build/**
+flutter/linux/cmake-build-debug/**
+flutter/web/Cargo.lock
+lib/generated_bridge.dart
+libsciter-gtk.so
 libsciter.dylib
-flutter/web/
+rustdesk
+sciter.dll
+src/bridge_generated.io.rs
+src/bridge_generated.rs
+src/ui/inline.rs
+src/version.rs
+vcpkg_installed
